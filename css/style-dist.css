@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  font-size: 16px;
+  line-height: 1;
+}
+
+body {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #E5E5E5;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 337px;
+  margin: 0 auto;
+  width: 100%;
+}
+.container .wrapper {
+  max-height: 593px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px 20px 30px 30px;
+  overflow: scroll;
+}
+.container .wrapper__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.container .wrapper__header img {
+  width: 35px;
+  height: auto;
+}
+.container .wrapper__header .header__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.container .wrapper .coins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 26px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.container .wrapper .coins .coin__img {
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+}
+.container .wrapper .coins .coins__name {
+  margin-left: 14px;
+}
+.container .wrapper .coins .coins__name h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2C384F;
+}
+.container .wrapper .coins .coins__name p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #899BBE;
+  margin-top: 6px;
+}
+.container .wrapper .coins img {
+  width: 40px;
+  height: auto;
+}
